@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import './Messages/Messages.css'
-import ScrollToBottom from './ScrollToBottom/ScrollToBottom';
+import './Messages.css'
+import ScrollToBottom from '../ScrollToBottom/ScrollToBottom';
 
 class Messages extends Component {
   messagesRef = React.createRef();

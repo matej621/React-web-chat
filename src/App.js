@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import Messages from './Messages';
-import Input from './Input';
+import Messages from './Messages/Messages';
+import Input from './Input/Input';
 import './App.css'
 
 

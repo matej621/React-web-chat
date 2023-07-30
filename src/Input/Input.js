@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './Input/Input.css'
+import './Input.css'
 
 class Input extends Component {
   state = {
