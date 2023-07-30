@@ -1,0 +1,30 @@
+.messages-container{
+    box-sizing: border-box;
+    background-color: #FAF5E9;
+    border-radius: 20px;
+
+}
+
+.messages-list{
+    box-sizing: border-box;
+    border: 5px solid #FFCC00;
+
+}
+
+.messages-item{
+    border: 2px solid black;
+    background-color: purple;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.Message-content {
+    background-color: #f1f1f1;
+    padding: 8px;
+    border-radius: 8px;
+    position: relative;
+    font-size: large;
+  }
+  
