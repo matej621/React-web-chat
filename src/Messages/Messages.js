@@ -13,14 +13,14 @@ class Messages extends Component {
   render() {
     const { messages, currentMember } = this.props;
     return (
-      <div className='Messages-list-container'>
-      <ul className="Messages-list" ref={this.messagesRef}>
+      <div>
+      <ul ref={this.messagesRef}>
         {messages.map((m, index) => (
-          <li key={index} className={m.member.id === currentMember.id ? "Messages-message currentMember" : "Messages-message"}>
-            <span className="avatar" style={{ backgroundColor: m.member.clientData.color }} />
-            <div className="Message-content">
-              <div className="username">{m.member.clientData.username}</div>
-              <div className="text">{m.text}</div>
+          <li key={index} className={m.member.id === currentMember.id ? "messages-message currentMember" : "messages-message"}>
+            <span style={{ backgroundColor: m.member.clientData.color }} />
+            <div className="message-content">
+              <div>{m.member.clientData.username} :</div>
+              <div>{m.text}</div>
             </div>
           </li>
         ))}

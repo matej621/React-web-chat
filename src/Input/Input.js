@@ -18,7 +18,7 @@ class Input extends Component {
 
   render() {
     return (
-      <div className="Input">
+      <div className="input">
         <form onSubmit={this.onSubmit}>
           <input
             className='form-input'
